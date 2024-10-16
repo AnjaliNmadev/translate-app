@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translate App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+   
+
+    </script>
+</head>
+<body>
+  <div class="container">
+    <div class="text">
+        <textarea name="text" placeholder="Enter your Text" class="fromtext txt" spellcheck="false"></textarea>
+    
+        <textarea name="text" placeholder="Translate" class="totext txt" spellcheck="false"></textarea>
+    </div>
+
+    <div class="to">
+        <h2 >
+            To
+        </h2>
+        </div>
+    <div class="operation">
+        <div class="inputoperation">
+            <i class="fa-solid fa-volume-high  speak"  id="from"></i>
+            <i class="fa-solid fa-copy  copy"  id="from"></i>
+            <select name="text" class="lang-txt">
+               
+            </select>
+        </div> 
+
+        <div class="from">
+            <h2 >
+             From
+            </h2>
+            </div>
+            <div class="outputoperation">
+                <i class="fa-solid fa-volume-high speak"  id="to"></i>
+                <i class="fa-solid fa-copy   copy"  id="to"></i>
+                <select name="text" class="lang-txt">
+                   
+                </select>
+        </div>
+    </div>
+
+    <div class="translate">
+        <button class="trans-btn">Translate</button>
+    </div>
+
+</div>
+<script src="countries.js"></script>
+   <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+const countries = {
+
+    "ar_BH" : "Arabic(Bahrain)",
+    "ar_OM"  : "Arabic(Oman)",
+    "bg_BG" : "Bulgarian(Bulgari",
+    "ca_ES"  : "Catalan (Spain)",
+    "da_DK" : "Danish (Denmark)",
+    "en-US"  : "English",
+    "de_AT" : "German (Austria)",
+    "de_DE"  : "German (Germany)",
+    "el_GR" : "Greek (Greece)",
+    "en_GB"  : "English (United Kingdom)",
+    "es_CL"  : "Spanish (Chile)",
+    "es_US" : "Spanish (United States)",
+    "fa_IR"  : "Persian (Iran)",
+    "fr_CA" : "french (Canada)",
+    "ga_IE" : "Irish (Ireland)",
+    "it_IT"  : "Italian (Italy)",
+    "gu-IN"  : "Gujarati",
+    "hi-IN" : "Hindi",
+    "kn-IN"  : "Kannada",
+    "ks-IN" : "Kashmiri",
+    "mni-IN"  : "Manipuri",
+    "ml-IN" : "Malayalam",
+    "mr-IN"  : "Marathi",
+    "ne-IN" : "Nepali",
+    "or-IN"  : "Odia",
+    "pa-IN" : "Punjabi",
+    "sa-IN"  : "Sanskrit",
+    "ta-IN" : "Tamil",
+    "te-IN"  : "Telugu",
+    "bo-IN" : "Tibetan",
+    "ur-IN"  : "Urdu",
+    
+   
+
+}

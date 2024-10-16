@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(51, 53, 53, 0.788);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container
+{
+    width: 40vw;
+    height: 80vh;
+    border: transparent;
+    background-color: rgb(226, 229, 233);
+    border-radius: 20px;
+    box-shadow: 1px 2px 8px rgb(78, 79, 80),
+    -1px -2px 8px rgb(189, 185, 185);
+}
+    
+
+.text{
+
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    top:12px;
+  
+   display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.txt{
+    width: 45%;
+    height: 45vh;
+   padding: 10px;
+   margin: 5px;
+   font-size: 16px;
+   background-color:  rgba(255, 255, 255, 0.952) ;
+   outline: none;
+   border-radius: 15px;
+   gap: 5px;
+   resize: none;
+   border: none;
+   flex-wrap: wrap;
+  
+}
+
+.operation{
+    margin-top: 30px;
+    width: 100%;
+    height: 10vh;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inputoperation{
+    width: 17vw;
+    height: 10vh;
+   display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(181, 191, 197);
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.outputoperation{
+    width: 17vw;
+    height: 10vh;
+   display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(181, 191, 197);
+    margin-right: 20px;
+    border-radius: 10px;
+
+}
+.fa-volume-high{
+    font-size: 18px;
+    color: rgb(16, 56, 94)  ;
+    cursor: pointer;
+}
+.fa-volume-high:hover{
+    scale: 120%;
+}
+
+.fa-copy{
+    
+    font-size: 18px;
+    color:  rgb(16, 56, 94) ;
+    cursor: pointer;
+}
+.fa-copy:hover{
+    scale: 120%;
+}
+
+.lang-txt{
+    
+    font-size: 15px;
+    color:  rgb(16, 56, 94) ;
+    cursor: pointer;
+    border: none;
+    background-color:  aliceblue ;
+    box-shadow: 1px 2px 8px rgb(211, 211, 211),
+    -1px -2px 8px rgb(192, 192, 192);
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 2px;
+   
+}
+.translate{
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+  
+}
+.trans-btn{
+    width: 15vw;
+    height: 6vh;  
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(128, 128, 128);
+    background-color:  aliceblue ;
+    box-shadow: 1px 2px 8px rgb(211, 211, 211),
+    -1px -2px 8px rgb(192, 192, 192);
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+.to,.from{
+    display: none;
+}
+
+
+/* laptop screen */
+
+@media only screen and (max-width: 940px) {
+    .container
+{
+    width: 55vw;
+    height: 85vh;
+    
+}
+.operation{
+    margin-top: 30px;
+    width: 100%;
+    height: 10vh;
+
+}
+
+.inputoperation{
+    width: 23vw;
+    height: 10vh;
+   
+}
+.outputoperation{
+    width: 23vw;
+    height: 10vh;
+  
+}
+
+.lang-txt{
+    
+    font-size: 12px;
+
+    width: 48%;
+    height: 30px;
+   
+}
+
+.trans-btn{
+    width: 25vw;
+    height: 6vh;  
+    
+}
+}
+ /*  large phone screen */
+
+@media only screen and (max-width: 700px) {
+    .container
+{
+    width: 65vw;
+    height: 95vh;
+    
+}
+
+.text{
+
+    width: 100%;
+    height: 65vh;
+
+}
+
+.txt{
+    width: 45%;
+    height: 55vh;
+  
+  
+}
+
+.operation{
+    margin-top: 20px;
+    width: 100%;
+    height: 10vh;
+ 
+}
+
+.inputoperation{
+    width: 28vw;
+    height: 10vh;
+    margin-left: 15px;
+   
+}
+.outputoperation{
+    width: 27vw;
+    height: 10vh;
+    margin-right: 15px;
+}
+
+.trans-btn{
+    width: 35vw;
+    height: 6vh;  
+    
+}
+}
+
+/*  small phone screen */
+
+@media only screen and (max-width: 511px) {
+    .container
+{
+    width: 70vw;
+    height: 101vh;
+    
+}
+
+.text{
+
+    width: 100%;
+    height: 60vh;
+}
+
+.txt{
+    width: 83%;
+    height: 27vh;
+
+  
+}
+.to{
+    margin: 11px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.operation{
+    margin-top: 10px;
+    width: 100%;
+    height: 21vh;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+ gap: 8px;
+
+}
+
+
+.inputoperation{
+    width: 50vw;
+    height: 14vh;
+    margin-right: 28px;
+ 
+}
+.outputoperation{
+    width: 50vw;
+    height: 14vh;
+ 
+}
+
+.lang-txt{
+    
+    font-size: 12px;
+    width: 50%;
+    height: 22px;
+   
+}
+.translate{
+    width: 50vw;
+    height: 7vh;
+  
+margin-bottom: 70px;
+  
+}
+
+.trans-btn{
+    width: 90vw;
+    height: 6vh;  
+    
+}
+
+.to,.from{
+    width: 10vw;
+    height: 5vh;
+    display: block;
+ 
+}
+h2{
+    
+    font-size: 15px;
+    color: rgb(65, 62, 62);
+}
+}
+
